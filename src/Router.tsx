@@ -8,8 +8,8 @@ export function Router(){
         <ApolloProvider client={cliente}>
             <BrowserRouter> 
                 <Routes> 
-                    <Route path="/event" element={<Event />}/>
-                    <Route path="/event/lesson/:slug" element={<Event />}/>
+                    <Route path="/" element={<Event />}/>
+                    <Route path="/lesson/:slug" element={<Event />}/>
                 </Routes>
             </BrowserRouter>
         </ApolloProvider>
