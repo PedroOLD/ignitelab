@@ -21,7 +21,7 @@ export function Lesson(props: LessonProps) {
 
 
     return (
-        <Link to={`/event/lesson/${props.slug}`} className="group">
+        <Link to={`/lesson/${props.slug}`} className="group">
             <span className="text-gray-300">
                 {availableAtDateFormatted}
             </span>
